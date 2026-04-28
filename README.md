@@ -27,12 +27,12 @@ A search engine that surfaces how online communities actually talk about product
 - Extended the platform with a **distributed RESTful B2B API** (FastAPI + EC2 / SQS / Lambda / S3, orchestrated via Boto3) to expose LLM-driven semantic search to partners through async task pipelines
 - GitHub Actions CI/CD + CloudWatch centralized error reporting for production observability
 
-**Tech:** FastAPI · AWS (EC2, SQS, Lambda, S3 Vector) · Boto3 · Embeddings · RAG
+**Tech:** RAG · Embeddings · FastAPI · MySQL · AWS (EC2, SQS, Lambda, Boto3, S3 Vector, DynamoDB)  
 
 ## 🛠️ Stack
-**LLM & AI:** OpenAI · Gemini · Transformers · Diffusers · PEFT · RAG · Agent Orchestration · Prompt Engineering  
-**Backend:** Python · FastAPI · Flask · Node.js · Redis
-**Frontend:** TypeScript · React · Next.js · Tailwind 
+**LLM & AI:** OpenAI · Gemini · Agent Orchestration · Prompt Engineering · RAG · Context Management  
+**Backend & Infra:** Python · FastAPI · Flask · Node.js · Redis · MySQL · PostgreSQL  
+**Frontend:** TypeScript · React · Next.js · Tailwind  
 **Cloud:** AWS (EC2, S3, SQS, Lambda, DynamoDB, AgentCore, CloudWatch) · GitHub Actions  
 **Vector & Retrieval:** Milvus · AWS S3 Vector DB · AWS AgentCore Memory · Embedding Search
 
