@@ -1,40 +1,55 @@
 ## Hi there 👋, I'm Xinzhe Yuan
-**AI Engineer** building autonomous LLM agents and production-grade AI systems.
+**Software Engineer focused on backend systems, distributed APIs, agentic tools, and LLM-powered applications.**
+
+I build production-oriented AI software systems with Python, Flask, FastAPI, AWS, semantic search, browser automation, and LLM orchestration.
 
 ## 🧠 What I Do
-- Build LLM-powered autonomous agents (browser automation, end-to-end task execution)
-- Design RAG pipelines, context management, and semantic search systems
-- Optimize LLM workloads for cost, latency, and retrieval relevance
-- Ship and operate production AI services on AWS
+
+- Build backend services for LLM-powered applications and AI products
+- Design RESTful APIs, async task pipelines, semantic search, and RAG systems
+- Optimize LLM workloads for cost, latency, token usage, and retrieval quality
+- Develop agentic browser automation tools using Chrome DevTools Protocol
+- Ship and monitor cloud-based services on AWS
 
 ## 🚀 Featured Projects
 
-### 🔹 Extends — Autonomous Web Agent · [extends.one](https://extends.one)
-LLM-powered Chrome extension that drives real browsers via **Chrome DevTools Protocol** to complete real-world web tasks.
-- **~98% accuracy** on the WebVoyager benchmark across 15 sites — outperforming **browser-use (89%)** and **OpenAI Operator (87%)**
-- Robust on highly dynamic platforms (Booking.com, Wolfram Alpha)
-- Built **from-scratch LLM orchestration**: recursive summarization, semantic filtering, PDF parsing — reduces per-request token usage while improving relevance
-- Integrated **AWS AgentCore Memory** for cross-session personalization
-- GitHub Actions CI/CD + CloudWatch centralized error reporting for production observability
+### 🔹 Currents — Intelligent Social Search Engine · [currents.one](https://currents.one)
 
-**Tech:** TypeScript · React · Next.js · Flask · CDP · OpenAI / Gemini SDK · AWS  
+A search engine that surfaces how online communities discuss products, brands, and topics, turning scattered social content into structured insight.
+
+- Built and extended backend services for LLM-powered semantic search using **FastAPI** and **AWS**
+- Designed asynchronous task-processing pipelines with **SQS**, **Lambda**, **S3**, and **Boto3**
+- Refactored keyword-extraction logic, reducing third-party LLM API calls by **66%**
+- Migrated vector storage from **Milvus** to **AWS S3 Vector DB**, reducing infrastructure cost by **$400/month** while maintaining retrieval quality
+- Added CI/CD and production observability with **GitHub Actions** and **CloudWatch**
+
+**Tech:** Python · FastAPI · RAG · Embeddings · MySQL · AWS EC2 · SQS · Lambda · Boto3 · S3 Vector · DynamoDB · CloudWatch
+
+---
+
+### 🔹 Extends — Autonomous Web Agent · [extends.one](https://extends.one)
+
+An LLM-powered Chrome extension that helps users automate multi-step web workflows through natural language.
+
+- Built browser automation features using **Chrome DevTools Protocol**, Chrome Extension APIs, and LLM-driven task execution
+- Developed orchestration components for planning, tool execution, recursive summarization, semantic filtering, and PDF parsing
+- Improved context handling to reduce token usage and improve response relevance
+- Integrated **AWS AgentCore Memory** for cross-session personalization
+- Evaluated the agent on WebVoyager-style browser automation tasks across dynamic websites
+
+**Tech:** TypeScript · React · Next.js · Flask · Chrome DevTools Protocol · OpenAI SDK · Gemini SDK · AWS
+
 🔗 Eval repo: [Virtu-llc/web_agent_eval](https://github.com/Virtu-llc/web_agent_eval)
 
-### 🔹 Currents — Intelligent Social Search Engine · [currents.one](https://currents.one)
-A search engine that surfaces how online communities actually talk about products, brands, and topics — turning scattered social discussion into structured insight.
-- Refactored NLP keyword-extraction logic → **cut third-party LLM API calls by 66%**
-- Migrated vector storage **Milvus → AWS S3 Vector DB** → saved **$400/month** infra cost with no RAG retrieval regression
-- Extended the platform with a **distributed RESTful B2B API** (FastAPI + EC2 / SQS / Lambda / S3, orchestrated via Boto3) to expose LLM-driven semantic search to partners through async task pipelines
-- GitHub Actions CI/CD + CloudWatch centralized error reporting for production observability
-
-**Tech:** RAG · Embeddings · FastAPI · MySQL · AWS (EC2, SQS, Lambda, Boto3, S3 Vector, DynamoDB)  
+---
 
 ## 🛠️ Stack
-**LLM & AI:** OpenAI · Gemini · Agent Orchestration · Prompt Engineering · RAG · Context Management  
-**Backend & Infra:** Python · FastAPI · Flask · Node.js · Redis · MySQL · PostgreSQL  
-**Frontend:** TypeScript · React · Next.js · Tailwind  
-**Cloud:** AWS (EC2, S3, SQS, Lambda, DynamoDB, AgentCore, CloudWatch) · GitHub Actions  
-**Vector & Retrieval:** Milvus · AWS S3 Vector DB · AWS AgentCore Memory · Embedding Search
+
+**Backend & Infrastructure:** Python · FastAPI · Flask · REST APIs · Redis · MySQL · PostgreSQL · Docker · Linux  
+**AI & LLM Systems:** OpenAI SDK · Gemini SDK · RAG · Embeddings · Agent Orchestration · Context Management · Prompt Engineering  
+**Cloud & DevOps:** AWS EC2 · S3 · SQS · Lambda · DynamoDB · CloudWatch · GitHub Actions  
+**Vector & Retrieval:** Milvus · AWS S3 Vector DB · AWS AgentCore Memory · Semantic Search  
+**Frontend & Web Tools:** TypeScript · React · Next.js · Tailwind · Chrome Extension APIs · Chrome DevTools Protocol
 
 ## 📫 Connect
 [LinkedIn](https://linkedin.com/in/xzyuan/) · xzhe121@gmail.com
