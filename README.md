@@ -13,7 +13,7 @@ I build production-oriented AI software systems with Python, Flask, FastAPI, AWS
 
 ## 🚀 Featured Projects
 
-### 🔹 Currents — Intelligent Social Search Engine · [currents.one](https://currents.one)
+### 🔹 Currents — Intelligent Social Search Engine
 
 A search engine that surfaces how online communities discuss products, brands, and topics, turning scattered social content into structured insight.
 
@@ -27,7 +27,7 @@ A search engine that surfaces how online communities discuss products, brands, a
 
 ---
 
-### 🔹 Extends — Autonomous Web Agent · [extends.one](https://extends.one)
+### 🔹 Extends — Autonomous Web Agent
 
 An LLM-powered Chrome extension that helps users automate multi-step web workflows through natural language.
 
